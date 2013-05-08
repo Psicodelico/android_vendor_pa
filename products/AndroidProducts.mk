@@ -46,3 +46,9 @@ endif
 ifeq (pa_d710,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_d710.mk
 endif
+ifeq (pa_p3110,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_p3110.mk
+endif
+ifeq (pa_crespo,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_crespo.mk
+endif
