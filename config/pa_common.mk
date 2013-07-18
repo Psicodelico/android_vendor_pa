@@ -100,11 +100,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.pa.family=$(PA_CONF_SOURCE) \
   ro.pa.version=$(VERSION) \
   ro.papref.revision=$(PA_PREF_REVISION)
-
-# goo.im properties
-ifneq ($(DEVELOPER_VERSION),true)
-    PRODUCT_PROPERTY_OVERRIDES += \
-      ro.goo.developerid=teamhellcife \
-      ro.goo.rom=aospap311x \
-      ro.goo.version=$(shell date +%s)
-endif
