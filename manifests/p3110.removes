@@ -1,0 +1,14 @@
+[
+    {
+        "name":     "CyanogenMod/android_packages_apps_Torch",
+        "path":     "packages/apps/Torch"
+    },
+    {
+        "name":     "ParanoidAndroid/android_packages_apps_ParanoidOTA",
+        "path":     "packages/apps/ParanoidOTA"
+    },
+    {
+        "name":     "ParanoidAndroid/android_packages_inputmethods_LatinIME",
+        "path":     "packages/inputmethods/LatinIME"
+    } 
+]
